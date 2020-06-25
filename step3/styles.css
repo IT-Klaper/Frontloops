@@ -1,0 +1,101 @@
+body{
+    font-family: Roboto;
+}
+.container {
+    background-color: rgb(22,160,133);
+    width: 1100px;
+    min-height: 40em;
+    margin: 100px 145px;
+    padding-top: 85px;
+    padding-left: 500px;
+}
+
+
+.card{
+    box-sizing: border-box;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    width: 600px;
+    min-height: 29.5em;
+    padding-bottom: 120px; 
+    overflow: hidden;
+}
+.bg_img{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -208px;
+    width: 600px;
+    height: 400px;
+    bottom: -110px;
+}
+
+.simple{
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 48px;
+    margin-left: 66px;
+}
+
+.account img{
+    float: right;
+    border: 2px solid rgb(228, 226, 226);
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 36px;
+    margin-right: 66px;
+}
+.account img:hover{
+    cursor: pointer;
+    box-shadow:  0px 0px 0px 5px rgb(218,218,218);
+}
+
+.order{
+   
+    font-size: 14.3px;
+    color: grey;
+    float: left;
+    margin-left: 66px;
+    margin-top: 10px;
+}
+.products{
+    float: left;
+    width: 600px;
+    height: 50px;
+ 
+    vertical-align: middle;
+}
+
+.chapelli{
+    padding-top: 37px;
+}
+
+.total .name{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    float: left;
+    margin-left: 66px;
+    color: dimgray;
+    margin-top: 1px;
+}
+
+.chapelli .name,
+.castelli .name{
+    float: left;
+    margin-left: 66px;
+    color: dimgray;
+    font-weight: 410;
+    font-size: 15px;  
+    margin-top: 5px;
+}
+
+
+.products .price{
+    float: right;
+    margin-right: 69px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 0;
+}
