@@ -1,132 +1,68 @@
-body{
-    background-color: black;
-    z-index: 1;
+body {
+    margin: 0;
+    padding: 0;
+    background: #85A5D4;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .container {
+    width: 900px;
+    margin: 100px auto;
 }
 
-div.container{
-    background-color: #789ace;
-    max-width: 150rem;
-    height: 56em;
-    margin: 2% 0%;
-    z-index: 2;
-    text-align: center;
-    
-   
-}
+.card {
+    border-radius: 4px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 22px 50px rgba(14,21,47, .2), 0 8px 20px rgba(14,21,47, .2);
+  }
 
-div.card{
-    background-color: white;
-    border-radius: 10px;
-    width: 83em;
-    height: 30em;
+.item{
     display: inline-block;
-    margin: 12em 0;
-    
+    vertical-align: top;
+    width: 33%;
+    height: 300px;
+    padding: 20px 40px;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #5673D5;
+    border-radius: 4px;
+}
+.item:hover {
+    background: #f6f6f6;
+    cursor: pointer;
+  }
+
+.item_image {
+    width: 70px;
+    margin-bottom: 20px;
 }
 
-div.mobile{
-    float: left;
-    /*border: 2px solid grey;*/
-    padding-top: 2em;
-    margin-top: 2em;
-    margin-left: 1.6em;
-    width: 25em;
-    height: 22em; 
-    margin-right: 0em;
+.item_value{
+    vertical-align: super;
+    font-size: 14px;
 
 }
 
-.mobile img{
-    margin-bottom: 1em;
-    
-}
-
- h1{
-    color: #4d67cf;
-    letter-spacing: 0.2em;
-    font-family: Roboto;
-    font-size: 28px;
-    font-weight: 2000;
-    margin-bottom: 1em;
-    margin-left: 0.1em;
-
-}
-.TV p.text{
-    width: 17em;
-    color: #b5b3b2;
-    padding-left: 2.5em;
-    font-size: 20px;
-    font-family: Roboto;
-    font-weight: 500; 
-}
-
-p.text{
-    width: 16em;
-    color: #b5b3b2;
-    padding-left: 2.5em;
-    font-size: 20px;
-    font-family: Roboto;
+.price{
+    font-size: 30px;
     font-weight: 500;
+}
+
+ .item_title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+
+}
+
+.text{
+    margin: 20px 0;
+    color: #A7A7A7;
 
    
-}
-
-b{
-    color: #4d67cf;
-    font-size: 52px;
-    font-family: Roboto;
-    
-}
-
-.price sup{
-    color: #4d67cf;
-    font-size: 25px;
-    vertical-align: 0.9em;
-    font-family: Roboto;
-    font-weight: bold;
-}
-
-.price sub{
-    color: #4d67cf;
-    font-size: 25px;
-    font-family: Roboto;
-}
-
-div.laptop{
-    float: left;
-    /*border: 2px solid grey;*/
-    padding-top: 2em;
-    margin-top: 2em;
-    padding-left: 1.6em;
-    width: 25em;
-    height: 24em; 
-}
-
-.laptop img{
-    margin-bottom: 2em;
-}
-
-div.TV{
-    float: right;
-    /*border: 2px solid grey;*/
-    width: 27em;
-    height: 24em;
-    padding-top: 2em;
-    margin-top: 2em;
-    padding-right: 1em;
-    margin-right: 1.5em;
-
-
-}
-
-.TV img{
-    margin-bottom: 2em;
-}
-
-div.TV:hover,
-div.laptop:hover,
-div.mobile:hover{
-    background-color: #f6f6f5;
-    border-radius: 5px;
-    cursor: pointer;
 }
