@@ -1,0 +1,158 @@
+body {
+    background: url("img/background.jpg") no-repeat 50% -15%;
+    background-size: 1500px 800px;    
+}
+
+.container {
+    background-color: white;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 43%;
+    width: 320px;
+    height: 290px;
+    border-radius: 5px;
+}
+
+
+.switch {
+
+    text-transform: uppercase;
+    height: 90px;
+   
+}
+
+
+
+.step-indicator {
+    margin-top: 18px;
+    width: 5px;
+    height: 5px;
+    float: left;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+
+
+
+.step-indicator-1 {
+    
+    margin-left: 150px;
+    background: grey;
+}
+
+.step-indicator-2 {background: rgb(201, 196, 196);}
+
+
+.step-indicator-3 {background: rgb(201, 196, 196);}
+
+
+.switch p {
+    color: rgb(51,51,51);
+    white-space: nowrap;
+    padding-top: 40px;
+   text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+
+.type {
+    Width: 320px;
+    height: 50px;
+    border-top: solid 2px rgb(230, 230, 230);
+    text-transform: uppercase; 
+}
+
+
+.check {
+    float: right;
+    margin-right: -13.5em;
+    margin-top: 14px;
+}
+
+
+.visa img,
+.Maestro img,
+.img {
+    margin-top: 5px;
+    margin-left: 25px;   
+    float: left;
+}
+
+
+.visa:hover,
+.Maestro:hover,
+.mastercard:hover {
+    cursor: pointer;
+    background-color: rgb(241,241,241); 
+}
+
+
+.mastercard p {
+    color: black;
+    float: right;
+    font-family: Roboto;
+    font-size: 14px;
+    margin-top: 17px;
+    margin-right: 10em;
+    font-weight: bold;
+}
+
+
+.visa p {
+    float: right;
+    color: rgb(201, 196, 196);
+    font-family: Roboto;
+    font-size: 14px;
+    margin-top: 17px;
+    margin-right: 14.3em;
+    font-weight: bold;  
+}
+
+
+.Maestro p {
+    float: right;
+    color: rgb(201, 196, 196);
+    font-family: Roboto;
+    font-size: 14px;
+    margin-top: 17px;
+    margin-right: 11.9em;
+    font-weight: bold;
+}
+
+
+.Nextstep {
+    background-color: rgb(89,139,221);
+    background-clip: padding-box;
+    width: 320px;
+    height: 50px;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    
+}
+
+
+.Nextstep:active {border-top: 3px solid transparent;}
+
+
+.Nextstep p {
+    vertical-align: middle;
+    color:white;
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 17px;
+}
+
+
+.Nextstep img {
+    width: 15px;
+    height: 15px;
+    vertical-align: text-bottom;
+    margin-left: 5px;
+}
