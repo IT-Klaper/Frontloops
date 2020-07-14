@@ -1,17 +1,17 @@
 body {
-    font-family: Roboto;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     overflow: hidden;
     margin: 0;
 }
 
 
 .container {
-    width: 1440px;
-    height: 727px;
+    width: 80vw;
+    height: 80vh;
     background: url("img/background.jpg") no-repeat;
     background-size: cover;
-    margin-top: 120px;
-    margin-left: 200px;
+    margin-top: 10vh;
+    margin-left: 10vw;
     position: relative;
     background-position: center;
 }
@@ -19,37 +19,38 @@ body {
 
 .card {
     background-color: white;
-    width: 396px;
-    height: 440px;
+    width: 20.5vw;
+    padding-bottom: 5vh;
+    height: auto;
     position: absolute;
-    margin-top: 100px;
-    margin-left: 518px;
+    margin-top: 10vh;
+    margin-left: 30vw;
     border-radius: 5px;
 }
 
 
-.title span:first-child {
+.frankfurt {
     float: left;
-    margin-left: 35px;
+    margin-left: 1.8vw;
 }
 
 
-.title span:nth-child(3) {
+.amsterdam {
     float: right;
-    margin-right: 35px;
+    margin-right: 1.8vw;
 }
 
 
 .title {
-    width: 396px;
-    height: 150px;
+    width: 20.5vw;
+    height: 9vh;
 }
 
 
 .letters {
-    margin-top: 50px;
-    font-family: Prompt;
-    font-size: 54px;
+    margin-top: 5vh;
+    font-family: Prompt, Arial, Helvetica, sans-serif;
+    font-size: 3vw;
     text-transform: uppercase;
     font-weight: 1000;
     color: #3b8acf;
@@ -60,70 +61,91 @@ body {
 
 .bash {
     background-color:#d3e6f4;
-    width: 25px;
-    height: 5px;
+    width: 1.5vw;
+    height: 0.5vh;
     float: left;
-    margin-top: 87px;
-    margin-left: 40px;
+    margin-top: 8vh;
+    margin-left: 1.5vw;
   
 }
 
 
-.title span:nth-child(4) {
+.frankfurt-subtitle {
     float: left;
-    left: 35px;
+    margin-left: 1.8vw;
+    margin-top: -1vh;   
 }
 
 
-.title span:nth-child(5) {
+.amsterdam-subtitle {
     float: right;
-    right: 35px;
+    margin-right: 1.8vw;
+    margin-top: -1vh;
 }
 
 
 .subtitle {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 0.8vw;
     color: #aaaaaa;
-    position: absolute;
-    margin-top: 110px;
     font-weight: 500;
 }
 
 .info {
-    padding-top: 25px;
-    padding-left: 35px;
+    padding-top: 13vh;
+    padding-left: 1.8vw;
 }
 
 
 .info img{
-    width: 160px;
-    height: 160px;
+    width: 16vw;
+    height: 16vh;
     float: right;
-    position: absolute;
-    top: 245px;
-    left: 200px;
+    margin-top: -16vh;
+    margin-right: -1.8vw;
 }
 
-.point {
+.flight-gate-seat{
+    word-spacing: 3.8vw;
     color: #aaaaaa;
     text-transform: uppercase;
-    font-size: 12px;
-    word-spacing: 72px;
+    font-size: 0.6vw;
+    font-weight: 600;
+    margin-bottom: 0.5vh;
+    
+}
+
+.number-of-flight{
+    font-weight: bold;
+    margin-right: 4.2vw;
+    font-size: 0.9vw;
+}
+
+.number-of-gate{
+    font-weight: bold;
+    margin-right: 3.6vw;
+    font-size: 0.9vw;
+}
+
+.number-of-seat{
+    font-weight: bold;
+    font-size: 0.9vw;
+}
+
+.label {
+    color: #aaaaaa;
+    text-transform: uppercase;
+    font-size: 0.6vw;
     font-weight: 500;
-    margin-bottom: 5px;
-    margin-top: 19px;
+    margin-bottom: 0.5vh;
+    margin-top: 1.9vh;
 }
 
 
-.meaning {
-    font-size: 16px;
+.label-info {
+    font-size: 0.85vw;
     font-weight: 500;
 
 }
-
-.flight {margin-right: 85px;}
-
-.gate { margin-right: 70px}
 
 
