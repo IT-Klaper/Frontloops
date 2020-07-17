@@ -1,0 +1,118 @@
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: #4d515d;
+    overflow: hidden;
+}
+
+.card{
+    width: 50vw;
+    height: 67vh;
+    background-color: white;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content{
+    width: 35vw;
+    height: 80vh;
+ 
+    
+}
+
+.image{
+    width: 20vw;
+    height: 67vh;
+    background-image: url('img/side.jpg');
+    background-size: cover;
+    border-radius: 0px 5px 5px 0px;
+   
+}
+
+h1{
+    font-size: 2vw;
+    font-weight: 300;
+    margin-top: 10vh;
+    margin-bottom: 1vh;
+    color: black;
+}
+
+.title{
+    font-size: 0.7vw;
+    font-weight: 500;
+    color: #aaaaaa;
+    margin-left: 4vw;
+    margin-bottom: 7vh;
+}
+
+.social_networks{
+    border: 0.1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24vw;
+    height: 6vh;
+    margin-left: 4vw;
+    margin-bottom: 2vh;
+    color: grey;
+    font-weight: bold;
+    font-size: 0.7vw;
+    outline: none;
+}
+
+.social_networks:hover{
+    cursor: pointer;
+    box-shadow: 5px 10px 10px rgb(236, 235, 235);
+    border: none;
+}
+
+.google-plus{
+    background: url("img/googleplus.svg") no-repeat 5% 50%;
+    background-size: 1vw;
+}
+
+.facebook{
+    background: url("img/facebook.svg") no-repeat 5% 50%;
+    background-size: 1vw;
+}
+
+.twitter{
+    background: url("img/twitter.svg") no-repeat 5% 50%;
+    background-size: 1vw;
+}
+
+.email-sign-up{
+    border-top: 0.1px solid rgb(224, 224, 224);
+    margin-top: 8vh;
+    width: 34vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description{
+    font-size: 0.7vw;
+    margin-right: 6vw;
+    font-weight: 500;
+}
+
+.email{
+    color: grey;
+    font-weight: bold;
+    font-size: 0.6vw;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+}
+
+.email:hover{
+    color: black;
+}
