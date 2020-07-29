@@ -1,15 +1,18 @@
 body{
     font-family: Roboto, Arial, Helvetica, sans-serif;
     background-color: #4d515d;
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .card{
     width: 50vw;
     height: 67vh;
     background-color: white;
-    margin-top: 10vh;
-    margin-left: 15vw;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
