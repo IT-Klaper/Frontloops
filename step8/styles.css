@@ -1,0 +1,182 @@
+body {
+    font-family: Roboto;
+    background-color: #f8ebe9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    background: url("img/background.jpg") no-repeat;
+    background-size: cover;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.back-link {
+    background: url("img/arrow-back.svg") no-repeat 0% -3%;
+    background-size: 30%;
+    height: 15%;
+    display: flex;
+    margin: 10% 0% 0% 10%;
+    padding-left: 7%;
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.back-link:hover{
+    color: black;
+    opacity: 1;
+}
+
+.content {
+    background-color: white;
+    width: 100%;
+}
+
+.navigation-block {
+    width: 100%;
+    height: 10%;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+       
+    
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 12%;
+}
+
+.navigation li {
+    padding-right: 15%;
+}
+
+.navigation .current-page {
+    color: black;
+    opacity: 1;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.4;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+
+.navigation a:hover {
+    color: black;
+    opacity: 1;
+}
+
+.heading {
+    width: 75%;
+    margin: 15% 15% 0%;
+
+}
+
+h1 {
+    font-family: Playfair Display;
+    font-size: 60px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.dash {
+    background-color: black; 
+    margin-top: 23%;
+    margin-right: 15%;
+    width: 35%;
+    height: 4px;
+}
+
+.author { 
+    font-family: Playfair Display;
+    margin-top: 5%;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.highlight-in-bold {
+    font-weight: 600;
+    
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+
+.play {
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 10px;
+    width: 1.5%;
+    border-radius: 50%;
+    margin: 2% 3.5%;
+    position: absolute;
+    z-index: 2;
+   
+}
+
+.preview {
+    position: relative;
+    z-index: 1;
+    background: url("img/preview.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 180%;
+    height: 110px;
+    margin-bottom: 8%;
+}
+
+.view-link{
+    background: url("img/arrow-forward.svg") no-repeat;
+    background-size: 10%;
+    width: 125%;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 12px;
+    padding-right: 20%;
+    background-position: 80% 80%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.description{
+    font-weight: 300;
+    width: 40%;
+    font-size: 16px;
+    line-height: 2;
+    margin: 3% 15% 0% 0%;
+}
