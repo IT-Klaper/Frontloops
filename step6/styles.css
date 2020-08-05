@@ -1,6 +1,9 @@
 body{
     font-family: Roboto, Arial, Helvetica, sans-serif;
     background-color: #4d515d;
+}
+
+.container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,21 +29,18 @@ body{
     
 }
 
-.image{
+img{
     width: 20vw;
     height: 67vh;
-    background-image: url('img/side.jpg');
-    background-size: cover;
     border-radius: 0px 5px 5px 0px;
-   
 }
 
-h1{
+.Main-title{
     font-size: 2vw;
     font-weight: 300;
     margin-top: 10vh;
-    margin-bottom: 1vh;
-    color: black;
+    margin-bottom: 0;
+    color: #000000;
 }
 
 .title{
@@ -51,8 +51,13 @@ h1{
     margin-bottom: 7vh;
 }
 
-.social_networks{
-    border: 0.1px solid rgb(224, 224, 224);
+.post-title {
+    white-space: pre-line;
+    margin: 0;
+}
+
+.social-networks{
+    border: 0.1px solid #e0e0e0;
     border-radius: 5px;
     text-transform: uppercase;
     display: flex;
@@ -69,9 +74,9 @@ h1{
     outline: none;
 }
 
-.social_networks:hover{
+.social-networks:hover{
     cursor: pointer;
-    box-shadow: 5px 10px 10px rgb(236, 235, 235);
+    box-shadow: 5px 10px 10px #ecebeb;
     border: none;
 }
 
@@ -91,7 +96,7 @@ h1{
 }
 
 .email-sign-up{
-    border-top: 0.1px solid rgb(224, 224, 224);
+    border-top: 0.1px solid #e0e0e0;
     margin-top: 8vh;
     width: 34vw;
     height: 10vh;
@@ -108,7 +113,7 @@ h1{
 }
 
 .email{
-    color: grey;
+    color: #808080;
     font-weight: bold;
     font-size: 0.6vw;
     text-transform: uppercase;
@@ -117,5 +122,5 @@ h1{
 }
 
 .email:hover{
-    color: black;
+    color: #000000;
 }
