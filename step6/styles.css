@@ -13,44 +13,44 @@ body{
 }
 
 .card{
-    width: 50vw;
-    height: 67vh;
+    width: 50%;
+    height: 67%;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 1%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .content{
-    width: 35vw;
-    height: 80vh;
+    width: 65%;
+    height: 100%;
  
     
 }
 
 .image{
-    width: 30vw;
-    height: 67vh;
+    width: 35%;
+    height: 100%;
     background: url(img/side.jpg);
     background-size: cover;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0 1% 1% 0;
 }
 
 .Main-title{
-    font-size: 2vw;
+    font-size: 45px;
     font-weight: 300;
-    margin-top: 10vh;
+    margin-top: 20%;
     margin-bottom: 0;
     color: #000000;
 }
 
 .title{
-    font-size: 0.7vw;
+    font-size: 13px;
     font-weight: 500;
     color: #aaaaaa;
-    margin-left: 4vw;
-    margin-bottom: 7vh;
+    margin-left: 14%;
+    margin-bottom: 10%;
 }
 
 .post-title {
@@ -66,13 +66,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 24vw;
-    height: 6vh;
-    margin-left: 4vw;
-    margin-bottom: 2vh;
+    width: 80%;
+    height: 30%;
+    margin-left: 13%;
+    margin-bottom: 2%;
     color: grey;
     font-weight: bold;
-    font-size: 0.7vw;
+    font-size: 12px;
     outline: none;
 }
 
@@ -84,27 +84,28 @@ body{
 
 .google-plus{
     background: url("img/googleplus.svg") no-repeat 5% 50%;
-    background-size: 1vw;
+    background-size: 5%;
 }
 
 .facebook{
     background: url("img/facebook.svg") no-repeat 5% 50%;
-    background-size: 1vw;
+    background-size: 4%;
 }
 
 .twitter{
     background: url("img/twitter.svg") no-repeat 5% 50%;
-    background-size: 1vw;
+    background-size: 4%;
 }
 
 .sign-up{
-    margin-bottom: 8vh;
+    margin-bottom: 15%;
+    height: 30%;
 }
 
 .email-sign-up{
     border-top: 0.1px solid #e0e0e0;
-    width: 34vw;
-    height: 10vh;
+    width: 100%;
+    height: 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -112,15 +113,15 @@ body{
 }
 
 .description{
-    font-size: 0.7vw;
-    margin-right: 6vw;
+    font-size: 13px;
+    margin-right: 100px;
     font-weight: 500;
 }
 
 .email{
     color: #808080;
     font-weight: bold;
-    font-size: 0.6vw;
+    font-size: 12px;
     text-transform: uppercase;
     text-decoration: none;
    
