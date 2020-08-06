@@ -29,9 +29,11 @@ body{
     
 }
 
-img{
-    width: 20vw;
+.image{
+    width: 30vw;
     height: 67vh;
+    background: url(img/side.jpg);
+    background-size: cover;
     border-radius: 0px 5px 5px 0px;
 }
 
@@ -95,9 +97,12 @@ img{
     background-size: 1vw;
 }
 
+.sign-up{
+    margin-bottom: 8vh;
+}
+
 .email-sign-up{
     border-top: 0.1px solid #e0e0e0;
-    margin-top: 8vh;
     width: 34vw;
     height: 10vh;
     display: flex;
