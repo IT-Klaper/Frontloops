@@ -1,0 +1,132 @@
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: #4d515d;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card{
+    width: 50%;
+    height: 67%;
+    background-color: white;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content{
+    width: 65%;
+    height: 100%;
+ 
+    
+}
+
+.image{
+    width: 35%;
+    height: 100%;
+    background: url(img/side.jpg);
+    background-size: cover;
+    border-radius: 0 1% 1% 0;
+}
+
+.Main-title{
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: 20%;
+    margin-bottom: 0;
+    color: #000000;
+}
+
+.title{
+    font-size: 13px;
+    font-weight: 500;
+    color: #aaaaaa;
+    margin-left: 14%;
+    margin-bottom: 10%;
+}
+
+.post-title {
+    white-space: pre-line;
+    margin: 0;
+}
+
+.social-networks{
+    border: 0.1px solid #e0e0e0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    margin-left: 13%;
+    margin-bottom: 2%;
+    color: grey;
+    font-weight: bold;
+    font-size: 12px;
+    outline: none;
+}
+
+.social-networks:hover{
+    cursor: pointer;
+    box-shadow: 5px 10px 10px #ecebeb;
+    border: none;
+}
+
+.google-plus{
+    background: url("img/googleplus.svg") no-repeat 5% 50%;
+    background-size: 5%;
+}
+
+.facebook{
+    background: url("img/facebook.svg") no-repeat 5% 50%;
+    background-size: 4%;
+}
+
+.twitter{
+    background: url("img/twitter.svg") no-repeat 5% 50%;
+    background-size: 4%;
+}
+
+.sign-up{
+    margin-bottom: 15%;
+    height: 30%;
+}
+
+.email-sign-up{
+    border-top: 0.1px solid #e0e0e0;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description{
+    font-size: 13px;
+    margin-right: 100px;
+    font-weight: 500;
+}
+
+.email{
+    color: #808080;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+}
+
+.email:hover{
+    color: #000000;
+}
